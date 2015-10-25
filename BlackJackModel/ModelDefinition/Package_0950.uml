@@ -57,5 +57,100 @@
         </suppliersInternal>
       </class>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="eb288c0d-ac32-4755-9396-6baaf3a0d1cb"
+        name="GameChoice"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="6029c822-9e06-4309-a6f4-8d12f3a39d1f"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FAdam%2FDocuments%2FGitHub%2FBlackJack_A_and_M%2Fbin%2FDebug%2FBlackJack.exe Namespace%3DBlackJack.view Type%3DGameChoice"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9c9d49bc-cfc0-4bb4-b393-beaeea9956ca"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6d62a103-622e-48ad-9b19-ff153e5e6594">
+                <propertyInstance
+                  Id="651cd78f-59ec-4696-8648-bc8ee4613dbd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a64e16e7-d073-47a9-88c2-c69cd21e0daa">
+                <propertyInstance
+                  Id="c50124c9-fa5b-4a72-90d9-e76a9e2b17bb"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ae20fc3c-46c1-4496-9903-4782235fc1bf">
+                <propertyInstance
+                  Id="4dcd000e-b0a6-423a-98b1-59db22639039"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="615b1d88-0870-47dc-99ea-75097c1c140b"
+            name="NewGame">
+            <referencesInternal>
+              <reference
+                Id="df84c228-6bbf-4152-a631-1599888cf9b0"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FAdam%2FDocuments%2FGitHub%2FBlackJack_A_and_M%2Fbin%2FDebug%2FBlackJack.exe Namespace%3DBlackJack.view Type%3DGameChoice Member%3DNewGame"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="395cef46-5b1a-4b50-aba7-2f013c8ba99c"
+            name="Hit">
+            <referencesInternal>
+              <reference
+                Id="e6308a20-b0a6-4700-abb3-7acb273e78bd"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FAdam%2FDocuments%2FGitHub%2FBlackJack_A_and_M%2Fbin%2FDebug%2FBlackJack.exe Namespace%3DBlackJack.view Type%3DGameChoice Member%3DHit"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="a712f5f1-945e-415c-b0be-31b9a981a7a3"
+            name="Stand">
+            <referencesInternal>
+              <reference
+                Id="16b00fed-ae0c-47de-82f9-9ba16115e6fc"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FAdam%2FDocuments%2FGitHub%2FBlackJack_A_and_M%2Fbin%2FDebug%2FBlackJack.exe Namespace%3DBlackJack.view Type%3DGameChoice Member%3DStand"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="a81f5773-1fec-4370-8e4b-0aa2a7aa8caa"
+            name="Quit">
+            <referencesInternal>
+              <reference
+                Id="99ed5da6-e5cb-4bdf-94c6-654622546164"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FAdam%2FDocuments%2FGitHub%2FBlackJack_A_and_M%2Fbin%2FDebug%2FBlackJack.exe Namespace%3DBlackJack.view Type%3DGameChoice Member%3DQuit"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="82e93d31-988c-4c3d-9d6f-7a88406bd853"
+            name="None">
+            <referencesInternal>
+              <reference
+                Id="c09deddc-b7af-46a0-858d-c2691a66877d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FAdam%2FDocuments%2FGitHub%2FBlackJack_A_and_M%2Fbin%2FDebug%2FBlackJack.exe Namespace%3DBlackJack.view Type%3DGameChoice Member%3DNone"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </packageHasNamedElement>
   </packagedElements>
 </package>

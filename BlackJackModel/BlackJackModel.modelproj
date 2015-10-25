@@ -30,16 +30,43 @@
       <SubType>Content</SubType>
       <DependentUpon>Game_Stand.sequencediagram</DependentUpon>
     </Content>
+    <Content Include="IBlackJackObserver.cs">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ISubject.cs">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package1_0950.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package1_2116.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_2127.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package2_0950.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_2127.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_0949.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_0950.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2116.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2125.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2127.uml">
       <SubType>Content</SubType>
     </Content>
     <Folder Include="ModelDefinition\" />
