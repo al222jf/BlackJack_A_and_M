@@ -51,14 +51,17 @@
               LastKnownName="INewGameStrategy"
               LastKnownLocation="Package2_0950.uml" />
           </interfaceRealization>
-          <dependency
-            Id="fe98b3f0-a4f5-4bb9-8414-885fe723decb">
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="7e587293-af51-41df-b645-d55d8ffe22dc"
+            isSubstitutable="false">
             <classMoniker
               Id="dbc227f8-9a3d-4ec5-a173-e32ed2a2f3ef"
               LastKnownName="NewStrategy"
               LastKnownLocation="Package2_0950.uml" />
-          </dependency>
-        </suppliersInternal>
+          </generalization>
+        </generalsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -76,14 +79,17 @@
               LastKnownName="INewGameStrategy"
               LastKnownLocation="Package2_0950.uml" />
           </interfaceRealization>
-          <dependency
-            Id="0b458941-e878-4975-b067-4b0d54678589">
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="746dbffe-27eb-4617-96fc-e5b6aa6c1e33"
+            isSubstitutable="false">
             <classMoniker
               Id="dbc227f8-9a3d-4ec5-a173-e32ed2a2f3ef"
               LastKnownName="NewStrategy"
               LastKnownLocation="Package2_0950.uml" />
-          </dependency>
-        </suppliersInternal>
+          </generalization>
+        </generalsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -921,6 +927,13 @@
               LastKnownName="IHitStrategy"
               LastKnownLocation="Package2_0950.uml" />
           </interfaceRealization>
+          <dependency
+            Id="f770e129-3f32-4657-ac5e-7201a6f64ed5">
+            <classMoniker
+              Id="274aad89-4b81-46c6-a61d-54ff6d7a1d51"
+              LastKnownName="RulesFactory"
+              LastKnownLocation="Package2_0950.uml" />
+          </dependency>
         </suppliersInternal>
         <ownedAttributesInternal>
           <property

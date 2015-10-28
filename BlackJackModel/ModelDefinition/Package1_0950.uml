@@ -33,13 +33,6 @@
               LastKnownName="RulesFactory"
               LastKnownLocation="Package2_0950.uml" />
           </dependency>
-          <dependency
-            Id="798ec1f5-55b1-4d05-b1ff-62ca3f390f15">
-            <interfaceMoniker
-              Id="97dd2c4c-982a-4130-b13d-f0204c03df5b"
-              LastKnownName="IEqualScoreStrategy"
-              LastKnownLocation="Package2_0950.uml" />
-          </dependency>
         </suppliersInternal>
         <generalsInternal>
           <generalization

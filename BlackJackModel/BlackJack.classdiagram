@@ -190,11 +190,13 @@
                         <interfaceMoniker Id="ff9e5ad6-46a4-4253-a8f6-587596ecd8b7" LastKnownName="INewGameStrategy" />
                         <elementDefinition Id="86035386-85f5-4b4d-864e-36a192b1dc9b" />
                       </interfaceRealization>
-                      <dependency Id="92419791-9cd3-4ed6-b1af-1dd95d8f409f">
-                        <classMoniker Id="7907d8d9-1c32-4e7a-a852-91bc8e560a27" LastKnownName="NewStrategy" />
-                        <elementDefinition Id="fe98b3f0-a4f5-4bb9-8414-885fe723decb" />
-                      </dependency>
                     </suppliersInternal>
+                    <generalsInternal>
+                      <generalization Id="537d5c8c-25ee-430b-9c7e-097f31271595" isSubstitutable="false">
+                        <classMoniker Id="7907d8d9-1c32-4e7a-a852-91bc8e560a27" LastKnownName="NewStrategy" />
+                        <elementDefinition Id="7e587293-af51-41df-b645-d55d8ffe22dc" />
+                      </generalization>
+                    </generalsInternal>
                   </class>
                 </packageHasNamedElement>
                 <packageHasNamedElement>
@@ -205,11 +207,13 @@
                         <interfaceMoniker Id="ff9e5ad6-46a4-4253-a8f6-587596ecd8b7" LastKnownName="INewGameStrategy" />
                         <elementDefinition Id="85e6fc98-3aea-44e0-8816-8ba246381186" />
                       </interfaceRealization>
-                      <dependency Id="a0fa8ca3-a068-4ced-970a-a0af0f8e935c">
-                        <classMoniker Id="7907d8d9-1c32-4e7a-a852-91bc8e560a27" LastKnownName="NewStrategy" />
-                        <elementDefinition Id="0b458941-e878-4975-b067-4b0d54678589" />
-                      </dependency>
                     </suppliersInternal>
+                    <generalsInternal>
+                      <generalization Id="35525c75-e7ce-4505-a8e2-f8e41b364c36" isSubstitutable="false">
+                        <classMoniker Id="7907d8d9-1c32-4e7a-a852-91bc8e560a27" LastKnownName="NewStrategy" />
+                        <elementDefinition Id="746dbffe-27eb-4617-96fc-e5b6aa6c1e33" />
+                      </generalization>
+                    </generalsInternal>
                   </class>
                 </packageHasNamedElement>
                 <packageHasNamedElement>
@@ -836,6 +840,10 @@
                         <interfaceMoniker Id="22acfdec-0761-4843-b8bc-fed534391061" LastKnownName="IHitStrategy" />
                         <elementDefinition Id="21270fa2-b1e0-4aeb-a723-b0cf93dbe714" />
                       </interfaceRealization>
+                      <dependency Id="5ec65cbd-2815-4f3b-90ea-f42990bf4358">
+                        <classMoniker Id="490c330f-5378-4e7f-8a78-6db4fefcbc44" LastKnownName="RulesFactory" />
+                        <elementDefinition Id="f770e129-3f32-4657-ac5e-7201a6f64ed5" />
+                      </dependency>
                     </suppliersInternal>
                     <ownedAttributesInternal>
                       <property Id="f0524b4a-8353-44ce-8ebd-9d969d87b5c3" name="g_hitLimit" visibility="Private" isLeaf="false" isStatic="true" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -1294,10 +1302,6 @@
                 <dependency Id="0bd82a5c-7bde-4627-8e84-939b4bbfd003">
                   <classMoniker Id="490c330f-5378-4e7f-8a78-6db4fefcbc44" LastKnownName="RulesFactory" />
                   <elementDefinition Id="ebcbd2dc-bbcb-4c6a-9cba-c8de4f9118c9" />
-                </dependency>
-                <dependency Id="5eeca8fa-c86a-4977-bfb6-87e6580a4545">
-                  <interfaceMoniker Id="5bf3041e-a4c5-45db-82bc-2354e42b0836" LastKnownName="IEqualScoreStrategy" />
-                  <elementDefinition Id="798ec1f5-55b1-4d05-b1ff-62ca3f390f15" />
                 </dependency>
               </suppliersInternal>
               <generalsInternal>
