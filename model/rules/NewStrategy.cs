@@ -7,7 +7,7 @@ namespace BlackJack.model.rules
 {
     abstract class NewStrategy
     {
-        protected void DealNewCards(Player a_player, Deck a_deck, bool show)
+        public static void DealNewCards(Player a_player, Deck a_deck, bool show)
         {
             var c = a_deck.GetCard();
             c.Show(show);

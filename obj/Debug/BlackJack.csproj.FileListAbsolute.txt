@@ -15,3 +15,6 @@ D:\Skolarbete\UML\Blackjack\BlackJack_A_and_M\obj\Debug\BlackJack.pdb
 D:\Skolarbete\UML\Blackjack\BlackJack_A_and_M\bin\Debug\BlackJack.exe
 D:\Skolarbete\UML\Blackjack\BlackJack_A_and_M\bin\Debug\BlackJack.pdb
 D:\Skolarbete\UML\Blackjack\BlackJack_A_and_M\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Documents\GitHub\BlackJack_A_and_M\bin\Debug\BlackJack.exe
+C:\Users\Adam\Documents\GitHub\BlackJack_A_and_M\bin\Debug\BlackJack.pdb
+C:\Users\Adam\Documents\GitHub\BlackJack_A_and_M\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
