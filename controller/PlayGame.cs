@@ -22,15 +22,9 @@ namespace BlackJack.controller
             m_game.Dealer.Subscribe(this);
             m_game.Player.Subscribe(this);
 
-            if (m_game.IsGameOver())
-            {
-                m_view.DisplayGameOver(m_game.IsDealerWinner());
-            }
-            
-           
+          
 
-
-            view.GameChoice input = m_view.GetInput();
+            var input = m_view.GetInput();
 
             if (input == view.GameChoice.NewGame)
             {
@@ -43,6 +37,11 @@ namespace BlackJack.controller
             else if (input == view.GameChoice.Stand)
             {
                 m_game.Stand();
+
+                if (m_game.IsGameOver())
+                {
+                    m_view.DisplayGameOver(m_game.IsDealerWinner());
+                }
             }
 
             return input != view.GameChoice.Quit;
@@ -53,6 +52,11 @@ namespace BlackJack.controller
             m_view.DisplayWelcomeMessage();
             m_view.DisplayDealerHand(m_game.GetDealerHand(), m_game.GetDealerScore());
             m_view.DisplayPlayerHand(m_game.GetPlayerHand(), m_game.GetPlayerScore());
+
+            //if (m_game.IsGameOver())
+            //{
+            //    m_view.DisplayGameOver(m_game.IsDealerWinner());
+            //}
         }
     }
 }

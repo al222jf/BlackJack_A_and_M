@@ -70,5 +70,10 @@ namespace BlackJack.model
         {
             return m_player.CalcScore();
         }
+
+        public bool quit()
+        {
+            return true;
+        }
     }
 }

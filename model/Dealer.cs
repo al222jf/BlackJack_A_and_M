@@ -54,6 +54,12 @@ namespace BlackJack.model
             if (m_deck != null)
             {
                 ShowHand();
+
+                foreach (Card c in GetHand())
+                {
+                    c.Show(true);
+                }
+
                 while(m_hitRule.DoHit(this))
                 {
                     //Card c = m_deck.GetCard();

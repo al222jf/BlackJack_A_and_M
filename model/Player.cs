@@ -14,7 +14,7 @@ namespace BlackJack.model
         public void DealCard(Card a_card)
         {
             m_hand.Add(a_card);
-            System.Threading.Thread.Sleep(1000);
+            //System.Threading.Thread.Sleep(1000);
             Notify();
         }
 
@@ -75,7 +75,11 @@ namespace BlackJack.model
 
         public void Notify()
         {
-            m_observer.ForEach(x => x.CardDealt());
+            foreach (IBlackJackObserver bj_observer in m_observer)
+            {
+                bj_observer.CardDealt();
+            }
+            //m_observer.ForEach(x => x.CardDealt());
         }
     }
 }
