@@ -22,8 +22,6 @@ namespace BlackJack.controller
             m_game.Dealer.Subscribe(this);
             m_game.Player.Subscribe(this);
 
-          
-
             var input = m_view.GetInput();
 
             if (input == view.GameChoice.NewGame)
@@ -38,6 +36,7 @@ namespace BlackJack.controller
             {
                 m_game.Stand();
 
+                //Had problem with repeating game over message. Workaround was moving it here.
                 if (m_game.IsGameOver())
                 {
                     m_view.DisplayGameOver(m_game.IsDealerWinner());
