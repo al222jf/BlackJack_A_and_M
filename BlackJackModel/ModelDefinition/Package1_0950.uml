@@ -324,13 +324,13 @@
               LastKnownName="ISubject"
               LastKnownLocation="Package1_0950.uml" />
           </interfaceRealization>
-          <interfaceRealization
-            Id="767ddf9f-738f-4e21-b3fa-be4d6f963482">
+          <dependency
+            Id="82cb0cc7-02cd-442a-a306-0063d0d23b45">
             <interfaceMoniker
               Id="b79ad5ed-dba3-45db-a2dd-df4546e4a7cf"
               LastKnownName="IBlackJackObserver"
               LastKnownLocation="Package1_0950.uml" />
-          </interfaceRealization>
+          </dependency>
         </suppliersInternal>
         <targetEnds>
           <association

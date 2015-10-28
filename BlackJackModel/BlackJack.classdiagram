@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="ce6ab5ad-19fd-4084-80ad-80094c6e032b" name="BlackJack" linkedPackageId="c879b0ba-216b-4f86-a1b3-4869d9637133" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="177ce5cc-9b97-4fa3-a44f-515dc6a5dfb5">
-      <profileInstance Id="88dd8709-d4e4-4fb6-8846-f68fc9f8c44a" name="CSharpProfile">
-        <elementDefinition Id="ccb2a8cd-22ad-42df-aad1-09b47916639f" />
-      </profileInstance>
-      <elementDefinition Id="1b48c43d-8c28-471e-b8e2-96ce02cbd0c1" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasPackages>
       <package Id="67210203-217c-4952-b91e-e329c1623f52" name="controller">
@@ -29,6 +21,10 @@
                   <interfaceMoniker Id="7aae8fd1-282e-4313-9bd6-d870eb16bfac" LastKnownName="IBlackJackObserver" />
                   <elementDefinition Id="2e51e899-de09-402b-97cc-e484110ee106" />
                 </interfaceRealization>
+                <dependency Id="fdcbeb43-4721-4d3c-a8b6-4092510b6aa4">
+                  <interfaceMoniker Id="7aae8fd1-282e-4313-9bd6-d870eb16bfac" LastKnownName="IBlackJackObserver" />
+                  <elementDefinition Id="b77ba7f4-b430-43ba-8232-9231de1a8be8" />
+                </dependency>
               </suppliersInternal>
               <ownedOperationsInternal>
                 <operation Id="4be21352-6a28-435b-9d1a-2a5eeffbac09" name="CardDealt" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
@@ -1430,10 +1426,10 @@
                   <interfaceMoniker Id="d5a69553-008d-4715-87e6-0d07ce66bdd2" LastKnownName="ISubject" />
                   <elementDefinition Id="d151344c-512e-413e-8d11-71ed530117c0" />
                 </interfaceRealization>
-                <interfaceRealization Id="0a9a6c9e-3d60-42d3-bf1e-f8058d702d0b">
+                <dependency Id="63eada3a-8b4e-49a7-9c07-8a5704871dee">
                   <interfaceMoniker Id="7aae8fd1-282e-4313-9bd6-d870eb16bfac" LastKnownName="IBlackJackObserver" />
-                  <elementDefinition Id="767ddf9f-738f-4e21-b3fa-be4d6f963482" />
-                </interfaceRealization>
+                  <elementDefinition Id="82cb0cc7-02cd-442a-a306-0063d0d23b45" />
+                </dependency>
               </suppliersInternal>
               <targetEnds>
                 <association Id="99cf2277-aa05-4c33-896d-e8abff0acd31" isDerived="false" sourceEndRoleName="" targetEndRoleName="m_hand" isLeaf="false" isAbstract="false">
@@ -1999,6 +1995,12 @@
           <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
         </profileInstance>
         <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="177ce5cc-9b97-4fa3-a44f-515dc6a5dfb5">
+        <profileInstance Id="88dd8709-d4e4-4fb6-8846-f68fc9f8c44a" name="CSharpProfile">
+          <elementDefinition Id="ccb2a8cd-22ad-42df-aad1-09b47916639f" />
+        </profileInstance>
+        <elementDefinition Id="1b48c43d-8c28-471e-b8e2-96ce02cbd0c1" />
       </packageHasProfileInstances>
     </profileInstances>
   </package>
