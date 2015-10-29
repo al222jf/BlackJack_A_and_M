@@ -19,6 +19,7 @@ namespace BlackJack.model
         {
             m_newGameRule = a_rulesFactory.GetNewGameRule();
             m_hitRule = a_rulesFactory.GetHitRule();
+
             m_winnerRule = a_rulesFactory.EqualScoreRule();
         }
 
@@ -38,7 +39,10 @@ namespace BlackJack.model
         {
             if (m_deck != null && a_player.CalcScore() < g_maxScore && !IsGameOver())
             {
-                rules.NewStrategy.DealNewCards(a_player, m_deck, true);
+                Card c;
+                c = m_deck.GetCard();
+                c.Show(true);
+                a_player.DealCard(c);
                 
                 return true;
             }
@@ -53,7 +57,10 @@ namespace BlackJack.model
 
                 while(m_hitRule.DoHit(this))
                 {
-                    rules.NewStrategy.DealNewCards(this, m_deck, true);
+                    Card c;
+                    c = m_deck.GetCard();
+                    c.Show(true);
+                    this.DealCard(c);
                 }
                 return true;
             }

@@ -14,7 +14,7 @@ namespace BlackJack.model
         public void DealCard(Card a_card)
         {
             m_hand.Add(a_card);
-            System.Threading.Thread.Sleep(1500);
+            //System.Threading.Thread.Sleep(1500);
             Notify();
         }
 

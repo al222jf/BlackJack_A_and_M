@@ -39,6 +39,7 @@ namespace BlackJack.controller
                 //Had problem with repeating game over message. Workaround was moving it here.
                 if (m_game.IsGameOver())
                 {
+                    CardDealt();
                     m_view.DisplayGameOver(m_game.IsDealerWinner());
                 }
             }

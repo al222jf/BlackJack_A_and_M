@@ -12,10 +12,10 @@ namespace BlackJack.model.rules
         public bool DoHit(model.Player a_dealer)
         {
 
-            if (a_dealer.CalcScore() == g_hitLimit)
-            {
-                return DealerHasAce(a_dealer.GetHand());
-            }
+            //if (a_dealer.CalcScore() == g_hitLimit)
+            //{
+            //    return DealerHasAce(a_dealer.GetHand());
+            //}
             return a_dealer.CalcScore() < g_hitLimit;
         }
 
