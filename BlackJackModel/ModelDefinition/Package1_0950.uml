@@ -226,6 +226,45 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="172c8a93-2d63-430d-9436-4599b47bc8fa"
+            isDerived="false"
+            sourceEndRoleName="Dealer"
+            targetEndRoleName="IEqualScoreStrategy"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="97dd2c4c-982a-4130-b13d-f0204c03df5b"
+              LastKnownName="IEqualScoreStrategy"
+              LastKnownLocation="Package2_0950.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b096d8ee-e197-42f4-9854-99fedc2a6360"
+                  name="Dealer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f424702a-7853-4328-b961-776ecad5dc42"
+                  name="IEqualScoreStrategy"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
       </class>
     </packageHasNamedElement>
@@ -441,14 +480,6 @@
           <operation
             Id="c13358d7-fcad-4018-a678-05b0e57c4127"
             name="Notify"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
-          <operation
-            Id="8183bef7-1680-4d6a-86d3-4a4ca2c91ced"
-            name="CardDealt"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"

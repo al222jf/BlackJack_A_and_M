@@ -189,6 +189,13 @@
               LastKnownName="IEqualScoreStrategy"
               LastKnownLocation="Package2_0950.uml" />
           </interfaceRealization>
+          <dependency
+            Id="a1535c9c-6820-474f-9b99-9096828940e5">
+            <classMoniker
+              Id="274aad89-4b81-46c6-a61d-54ff6d7a1d51"
+              LastKnownName="RulesFactory"
+              LastKnownLocation="Package2_0950.uml" />
+          </dependency>
         </suppliersInternal>
         <ownedOperationsInternal>
           <operation
