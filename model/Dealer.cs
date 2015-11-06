@@ -43,10 +43,7 @@ namespace BlackJack.model
                 //c = m_deck.GetCard();
                 //c.Show(true);
                 //a_player.DealCard(c);
-                Deck d = new Deck();
-
-
-                d.GetCard(a_player, true);
+                DealCard(this, true);
 
                 //rules.NewStrategy.DealNewCards(a_player, m_deck, true);
                 
@@ -69,10 +66,7 @@ namespace BlackJack.model
                     //this.DealCard(c);
                     //rules.NewStrategy.DealNewCards(this, m_deck, true);
 
-
-                    Deck d = new Deck();
-
-                    d.GetCard(this, true);
+                    DealCard(this, true);
 
                 }
                 return true;
@@ -92,6 +86,12 @@ namespace BlackJack.model
                 return true;
             }
             return false;
+        }
+        public void DealCard(Player a_toGetCard, bool a_showCard)
+        {
+            var c = m_deck.GetCard();
+            c.Show(a_showCard);
+            a_toGetCard.DealCard(c);
         }
     }
 }

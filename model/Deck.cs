@@ -25,15 +25,11 @@ namespace BlackJack.model
             Shuffle();
         }
 
-        public void GetCard(Player a_player, bool show)
+        public Card GetCard()
         {
             Card c = m_cards.First();
             m_cards.RemoveAt(0);
-
-            c.Show(show);
-            a_player.DealCard(c);
-
-            //return c;
+            return c;
 
         }
 
